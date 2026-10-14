@@ -54,3 +54,13 @@ elif choice == '2':
                 print(f"The result of division is: {result}")
     else:
         print("Invalid Input. Please select a valid operation (1-4).")
+
+if selction == 1:
+    calculate_add()
+elif selction == 2:
+    calculate_subtract()
+elif selction == 3:
+    calculate_multiply()
+elif selction == 4:
+    calculate_divide ()
+    else: print("sorry somthing went wrong")
