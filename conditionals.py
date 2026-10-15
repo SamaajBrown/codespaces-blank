@@ -64,3 +64,31 @@ elif selction == 3:
 elif selction == 4:
     calculate_divide ()
     else: print("sorry somthing went wrong")
+
+  # 1. Under 4 years old: Free
+    if age < 4:
+        price = 0.00
+    
+    # 2. Ages 4 to 12: Child price ($8.00)
+    elif age <= 12:
+        price = 8.00
+        
+    # 3. Ages 13 to 64: Standard Adult price ($15.00)
+    elif age <= 64:
+        price = 15.00
+        
+    # 4. Ages 65 and older: Senior discount ($10.00)
+    else:
+        price = 10.00
+
+
+
+        def check_trip_eligibility(permission_slip, gpa):
+    if permission_slip == True and gpa > 90:
+        print("Confirmed: You can go on the trip!")
+    elif permission_slip == False and gpa > 90:
+        print("You have a free day!")
+    else:
+        print("You will attend regular classes.")
+        
+
